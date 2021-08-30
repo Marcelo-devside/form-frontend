@@ -13,7 +13,7 @@ export default function Former(){
         if (user.status === 200) {
             alert('Cadastro enviado com SUCESSO!')
         } else {
-            alert('Houve um ERRO no seu envio, tente novamente...')
+            alert('Houve um ERRO no seu envio, tente novamente....')
         }
         console.log(person)
     }
