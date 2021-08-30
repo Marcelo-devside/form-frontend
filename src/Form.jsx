@@ -9,7 +9,7 @@ import './Form.css'
 
 export default function Former(){
     const addPerson = async (person) =>{
-        const user = await axios.post('https://formulario-react-express.herokuapp.com/',Form)
+        const user = await axios.post('https://form-app-react.herokuapp.com/',Form)
         if (user.status === 200) {
             alert('Cadastro enviado com SUCESSO!')
         } else {
