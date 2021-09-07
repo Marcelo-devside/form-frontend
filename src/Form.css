@@ -19,6 +19,9 @@
   margin:1em auto;
   text-align: center;
 }
+.qr{
+  size: 2px;
+}
 h3 {
   color: var(--font-color2);
  margin:1em auto 1em auto;
